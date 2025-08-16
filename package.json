@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "workspaces": ["next-app"],
+  "scripts": {
+    "dev": "npm --workspace next-app run dev",
+    "build": "npm --workspace next-app run build",
+    "start": "npm --workspace next-app run start",
+    "vercel-build": "npm --workspace next-app run build"
+  },
+  "devDependencies": {
+    "next": "14.2.3"
+  }
+}
