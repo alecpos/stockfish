@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import Stockfish from 'stockfish.wasm';
+import Stockfish from 'stockfish';
 
 export default function Home() {
   const [engine, setEngine] = useState(null);
