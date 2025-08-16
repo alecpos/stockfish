@@ -16,3 +16,9 @@ python -m trainer.uci_client
 
 Ensure a compiled Stockfish binary exists at `stockfish/src/stockfish` or
 provide the path when creating `StockfishEngine`.
+
+### Web interface
+
+A starter Next.js app lives in `next-app`. It loads the Stockfish engine in the
+browser through a WebAssembly build and serves as the base for a training UI.
+Run `npm install` and `npm run dev` inside that directory to start the server.
