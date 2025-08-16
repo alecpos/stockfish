@@ -5,10 +5,10 @@ Stockfish.
 
 ## Tasks
 
-- [ ] Add official Stockfish engine as submodule.
-- [ ] Implement UCI client for engine communication.
+- [x] Add official Stockfish engine as submodule.
+- [x] Implement UCI client for engine communication.
 - [ ] Build GUI to display board and analysis.
-- [ ] Add ELO-based strength scaling.
+- [x] Add ELO-based strength scaling.
 - [ ] Record game history and analysis results.
 
 ## Notes
